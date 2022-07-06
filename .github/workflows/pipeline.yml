@@ -5,7 +5,7 @@ on:
   
 jobs:
   build:
-    runs-on: ["self-hosted", "gcp","ephemeral"]
+    runs-on: ["self-hosted", "gcp"]
     steps:
       - uses: anishathalye/proof-html@v1.1.0
         with:
